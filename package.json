@@ -1,0 +1,19 @@
+{
+  "name": "local-weather",
+  "version": "1.0.0",
+  "description": "See the local weather",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christiandbf/local-weather.git"
+  },
+  "author": "Christian Barrios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christiandbf/local-weather/issues"
+  },
+  "homepage": "https://github.com/christiandbf/local-weather#readme"
+}
