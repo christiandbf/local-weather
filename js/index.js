@@ -9,7 +9,7 @@ $(document).ready(function() {
             locationJSON = json;
         }, 
         error : function(xhr, status) {
-            alert('Disculpe, error determinando su ubicación');
+            alert('Sorry, error determining your location. For security reasons your web browser can block your location. Please activate this script manually.');
         }, 
     });    
     
