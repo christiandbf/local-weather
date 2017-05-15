@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var locationJson;
     $.ajax({
-        url : 'http://ip-api.com/json',
+        url : 'https://ip-api.com/json',
         type : 'GET',
         dataType : 'json',
         async: false,
