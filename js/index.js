@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var locationJson;
     $.ajax({
-        url : 'https://ip-api.com/json',
+        url : 'https://ipapi.co/json/',
         type : 'GET',
         dataType : 'json',
         async: false,
@@ -9,7 +9,7 @@ $(document).ready(function() {
             locationJSON = json;
         }, 
         error : function(xhr, status) {
-            alert('Sorry, error determining your location. For security reasons your web browser can block your location. Please activate this script manually.');
+            alert('Sorry, error determining your location.');
         }, 
     });    
     
