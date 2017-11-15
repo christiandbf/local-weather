@@ -13,7 +13,7 @@ $(document).ready(function() {
         }, 
     });    
     
-    var urlApiWeather = "http://api.openweathermap.org/data/2.5/weather?q=" + locationJSON.city + "&APPID=bb36ece062396394916c3426efa588e4";
+    var urlApiWeather = "https://api.openweathermap.org/data/2.5/weather?q=" + locationJSON.city + "&APPID=bb36ece062396394916c3426efa588e4";
     var celcius, farenheit;
     $.getJSON(urlApiWeather, function(params) {
         celcius = (params.main.temp - 273).toFixed(2);
